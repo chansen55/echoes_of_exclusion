@@ -37,6 +37,7 @@ function touchMoveFn(event) {
     const sectionNumber = findImageSection(touchEndX, screenSection);
     const newImgIndex = (sectionNumber - 1 + direction + numOfImages) % numOfImages + 1;
     img.src = `img/${newImgIndex}.JPG`;
+    // to delete
 }
 
 // Function to find the section of the image
